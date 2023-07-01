@@ -97,7 +97,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <a href="">dsadas</a>
+          <a href="">hello world</a>
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Deploy{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
