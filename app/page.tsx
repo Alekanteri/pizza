@@ -1,9 +1,14 @@
-import React from 'react'
+'use client'
+import React, {FC} from 'react'
+import Hero from './components/hero'
+import Services from './components/services'
 
-const page = () => {
+const HomePage: FC = () => {
   return (
-    <div>page</div>
+      <div>
+        <Hero/>
+        <Services/>
+      </div>
   )
 }
-
-export default page
+export default HomePage

@@ -17,11 +17,9 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #FEF2F2;
+  padding: 10px 50px;
+}
+.btn {
+  @apply bg-red-500 text-white rounded-full text-[14px] p-3 px-7 hover:bg-red-600
 }
