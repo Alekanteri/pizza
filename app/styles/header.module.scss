@@ -1,0 +1,11 @@
+.ul {
+    @apply text-[13px] animate-pulse flex justify-center items-center gap-8 cursor-pointer;
+
+    li {
+        @apply hover:text-red-500  transition-all duration-100 hover:scale-125
+    }
+
+    .btn {
+        background-color: #F3474D;
+      }
+}
